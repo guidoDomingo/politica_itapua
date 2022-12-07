@@ -133,7 +133,7 @@ PRODUCTOS MÁS VENDIDOS
           				<li>
 						 
     						 <p>'.$value["nombre"].'<span class="pull-right text-'.$colores[$key].'">   
-    						 '.ceil((intval($votos[0])*100)/intval($total["total"])).'% ,Votantes: <strong>'.$votos[0].'</strong>, <span class="bg-green text-white votoPuntero p-2">de estos ya votaron: '. $ya_voto["total"].'</span></span>
+    						 '.ceil((intval($votos[0])*100)/intval($total["total"])).'% ,Votantes: <strong>'.$votos[0].'</strong>, <span class="bg-green text-white votoPuntero p-2">de estos ya paso: '. $ya_voto["total"].'</span></span>
     			       		 </p>
                  
 
@@ -147,7 +147,7 @@ PRODUCTOS MÁS VENDIDOS
           				<li>
 						 
     						 <p>'.$value["nombre"].'<span class="pull-right text-'.$colores[$key].'">   
-    						 '.ceil((intval($votos[0])*100)/intval($total["total"])).'% ,Votantes: <strong>'.$votos[0].'</strong>, <span class="bg-yellow text-white votoPuntero p-2"> de estos ya votaron: '. $ya_voto["total"].'<span> </span>
+    						 '.ceil((intval($votos[0])*100)/intval($total["total"])).'% ,Votantes: <strong>'.$votos[0].'</strong>, <span class="bg-yellow text-white votoPuntero p-2"> de estos ya paso: '. $ya_voto["total"].'<span> </span>
     			       		 </p>
                  
 
@@ -161,7 +161,7 @@ PRODUCTOS MÁS VENDIDOS
           				<li>
 						 
     						 <p>'.$value["nombre"].'<span class="pull-right text-'.$colores[$key].'">   
-    						 '.ceil((intval($votos[0])*100)/intval($total["total"])).'% ,Votantes: <strong>'.$votos[0].'</strong>,<span class="bg-red text-white votoPuntero p-2"> de estos ya votaron: '. $ya_voto["total"].'<span> </span>
+    						 '.ceil((intval($votos[0])*100)/intval($total["total"])).'% ,Votantes: <strong>'.$votos[0].'</strong>,<span class="bg-red text-white votoPuntero p-2"> de estos ya paso: '. $ya_voto["total"].'<span> </span>
     			       		 </p>
                  
 

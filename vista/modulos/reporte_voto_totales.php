@@ -84,7 +84,7 @@ PRODUCTOS MÁS VENDIDOS
 	
 	<div class="box-header with-border">
   
-      <h3 class="box-title">Votos totales</h3>
+      <h3 class="box-title">Personas que pasaron por pc</h3>
 
     </div>
 
@@ -124,7 +124,7 @@ PRODUCTOS MÁS VENDIDOS
                       <li>
                           
                         
-                           <p><strong>Total de votos:<strong><span class="pull-right text-white voto" p-5>'.$votosTotales["total"].'</span>
+                           <p><strong>Ya pasaron por pc:<strong><span class="pull-right text-white voto" p-5>'.$votosTotales["total"].'</span>
                            </p>
                         
                          
@@ -133,7 +133,7 @@ PRODUCTOS MÁS VENDIDOS
 
                       <li>
                      
-                         <p><strong>Todavía no votaron:<strong><span class="pull-right text-white voto" p-5>'.$faltaVotar["total"].'</span>
+                         <p><strong>No pasaron por pc:<strong><span class="pull-right text-white voto" p-5>'.$faltaVotar["total"].'</span>
                          </p>
                          
 
