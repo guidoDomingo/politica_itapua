@@ -320,6 +320,9 @@ $(".tablas").on("click", ".btnActivarVeedor", function () {
     $(this).html("Si voto");
     $(this).attr("estadoVotante", 0);
   }
+
+  $(this).prop("disabled",true);
+  
 });
 
 // In your Javascript (external .js resource or <script> tag)
