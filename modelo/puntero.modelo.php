@@ -382,7 +382,7 @@ class ModeloPuntero{
 	static public function mdlDatosExcel($tabla,$item,$valor){	
 
 		$stmt = Conexion::conectar()->prepare("
-			SELECT nombre,apellido,distrito as direccion,mesa,mesaorden as orden, local FROM $tabla 
+			SELECT nombre,apellido,desc_dis as direccion,mesa,orden,desc_locanr as local FROM $tabla 
 			where $item = :cedula
 		");
 

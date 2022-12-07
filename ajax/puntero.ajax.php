@@ -108,7 +108,7 @@ class AjaxPuntero{
 
 	public function ajaxDatosExcel(){
 
-		$item = "cedula";
+		$item = "numero_ced";
 		$valor = $this->cedula_excel;
 
 		$respuesta = ControladorPuntero::ctrDatosExcel($item, $valor);
